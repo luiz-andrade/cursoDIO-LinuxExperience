@@ -29,7 +29,7 @@ useradd maria -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_ADM -c
 useradd joao -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_ADM -c "Joao da Silva"
 
 useradd debora -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_VEN -c "Debora da Silva"
-useradd sebastiao -m -s /bin/bash -p $(openssl passwd -crypt Senha123)  -G GRP_VEN -c "Sebastiao da Silva"
+useradd sebastiana -m -s /bin/bash -p $(openssl passwd -crypt Senha123)  -G GRP_VEN -c "Sebastiao da Silva"
 useradd roberto -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_VEN -c "Roberto da Silva"
 
 useradd josefina -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_SEC -c "Josefina da Silva"
